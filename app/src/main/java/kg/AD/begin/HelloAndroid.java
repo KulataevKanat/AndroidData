@@ -17,6 +17,7 @@ public class HelloAndroid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.begin_activity_android_hello);
         chapterButton();
+
     }
 
     private void chapterButton() {
