@@ -30,7 +30,7 @@ public class XmlElement extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.UNITS);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_UNITS);
                         startActivity(intent);
                     }
                 }
