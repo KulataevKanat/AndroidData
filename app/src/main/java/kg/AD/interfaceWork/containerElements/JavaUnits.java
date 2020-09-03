@@ -17,7 +17,7 @@ public class JavaUnits extends AppCompatActivity {
         RelativeLayout relativeLayout = new RelativeLayout(this);
         TextView textView = new TextView(this);
         textView.setText(Strings.JAVA_UNIT_ELEMENT);
-        textView.setTextSize(15);
+        textView.setTextSize(30);
 
         textView.setLayoutParams(new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
