@@ -2,7 +2,8 @@ package kg.AD.values;
 
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
-import kg.AD.interfaceWork.containerElements.Units;
+import kg.AD.interfaceWork.containerElements.JavaUnits;
+import kg.AD.interfaceWork.containerElements.XmlUnits;
 import kg.AD.interfaceWork.elements.JavaElement;
 import kg.AD.interfaceWork.elements.XmlElement;
 
@@ -20,7 +21,8 @@ public class Classes {
     public final static Class<?> JAVA_ELEMENT = JavaElement.class;
     public final static Class<?> XML_ELEMENT = XmlElement.class;
     //elements
-    public final static Class<?> UNITS = Units.class;
+    public final static Class<?> XML_UNITS = XmlUnits.class;
+    public final static Class<?> JAVA_UNITS = JavaUnits.class;
 
 
     /**
