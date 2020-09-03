@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaceWork.containerElements.XmlUnits">
+
+    <TextView
+        android:layout_width="96.1dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="#e0e0e0"
+        android:text="@string/hello_world"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#e0e0e0"
+        android:text="@string/hello_world"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="#e0e0e0"
+        android:gravity="center"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:text="@string/text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/next_units_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/java_element"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/next_indents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/right_layout"
+        android:textSize="27sp" />
+
+</RelativeLayout>
