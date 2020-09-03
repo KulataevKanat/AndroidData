@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".interfaceWork.containerElements.JavaUnits"></activity>
+        <activity android:name=".interfaceWork.containerElements.JavaUnits">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".interfaceWork.containerElements.XmlUnits">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
