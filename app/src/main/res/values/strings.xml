@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">AndroidData</string>
     <string name="hello_android">Hello Android!</string>
+    <string name="hello_world">Hello World!</string>
     <string name="sms">Введите сообщение</string>
     <string name="send">Отправить</string>
     <string name="chapter_one">глава1.Работа с Андроид</string>
     <string name="chapter_two">глава2.Основы Интерфейса</string>
     <string name="hello_xml_interface">Hello XML Interface</string>
+    <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
     //Button
     <string name="right_layout">вперед</string>
     <string name="left_layout">назад</string>
