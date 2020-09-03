@@ -17,12 +17,16 @@ public class JavaUnits extends AppCompatActivity {
         RelativeLayout relativeLayout = new RelativeLayout(this);
         TextView textView = new TextView(this);
         textView.setText(Strings.JAVA_UNIT_ELEMENT);
-        textView.setTextSize(30);
+        textView.setTextSize(15);
 
         textView.setLayoutParams(new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, 300));
-
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT));
         relativeLayout.addView(textView);
+
+//        textView.setLayoutParams(new ViewGroup.LayoutParams(
+//                ViewGroup.LayoutParams.MATCH_PARENT, 300));
+
         setContentView(relativeLayout);
     }
 }
