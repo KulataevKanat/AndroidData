@@ -21,19 +21,20 @@ public class XmlElement extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.tv_xml);
         textView.setText(Strings.HELLO_XML_ELEMENT);
         textView.setTextSize(30);
+        chapterButton();
     }
 
-    /*public void chapterButton() {
-        Button layout_change = (Button) findViewById(R.id.next_element);
+    public void chapterButton() {
+        Button layout_change = (Button) findViewById(R.id.next_units);
         layout_change.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_ELEMENT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.UNITS);
                         startActivity(intent);
                     }
                 }
         );
-    }*/
+    }
 
 }
