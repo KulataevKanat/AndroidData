@@ -20,8 +20,8 @@ public class JavaUnits extends AppCompatActivity {
         textView.setTextSize(30);
 
         textView.setLayoutParams(new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT));
+                ViewGroup.LayoutParams.MATCH_PARENT, 300));
+
         relativeLayout.addView(textView);
         setContentView(relativeLayout);
     }
