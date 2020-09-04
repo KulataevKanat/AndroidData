@@ -13,7 +13,7 @@
         <!--Interface chapter-->
         <!--containers package:-->
         <!--java package:-->
-        <activity android:name=".interfaceWorks.java.containers.LinearLayout" />
+        <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
         <!--xml package:-->
         <activity android:name=".interfaceWorks.xml.containers.VerticalLinearLayout" />
         <activity android:name=".interfaceWorks.xml.containers.HorizontalLinearLayout" />
