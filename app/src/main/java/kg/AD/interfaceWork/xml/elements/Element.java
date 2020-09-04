@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.elements;
+package kg.AD.interfaceWork.xml.elements;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,12 +12,12 @@ import kg.AD.R;
 import kg.AD.values.Classes;
 import kg.AD.values.Strings;
 
-public class XmlElement extends AppCompatActivity {
+public class Element extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_xml_element);
+        setContentView(R.layout.activity_element);
         TextView textView = (TextView) findViewById(R.id.tv_xml);
         textView.setText(Strings.HELLO_XML_ELEMENT);
         textView.setTextSize(30);

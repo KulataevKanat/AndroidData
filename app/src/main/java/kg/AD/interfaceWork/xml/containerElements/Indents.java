@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.containerElements;
+package kg.AD.interfaceWork.xml.containerElements;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,23 +10,23 @@ import android.widget.Button;
 import kg.AD.R;
 import kg.AD.values.Classes;
 
-public class XmlUnits extends AppCompatActivity {
+public class Indents extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_xml_units);
+        setContentView(R.layout.activity_indets);
         chapterButton();
     }
 
     private void chapterButton() {
-        Button layout_change = (Button) findViewById(R.id.next_indents);
-        Button layout_java_change = (Button) findViewById(R.id.next_units_java_element);
+        Button layout_change = (Button) findViewById(R.id.next_ll_container);
+        Button layout_java_change = (Button) findViewById(R.id.next_indents_java_element);
         layout_change.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_INDENTS);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_VERTICAL_LINEAR_LAYOUT);
                         startActivity(intent);
                     }
                 }
@@ -35,11 +35,10 @@ public class XmlUnits extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.JAVA_UNITS);
+                        Intent intent = new Intent(getApplicationContext(), Classes.JAVA_INDENTS);
                         startActivity(intent);
                     }
                 }
         );
     }
-
 }
