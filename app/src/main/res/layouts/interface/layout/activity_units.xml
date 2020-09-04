@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".interfaceWork.containerElements.XmlUnits">
+    tools:context=".interfaceWork.xml.containerElements.Units">
 
     <TextView
         android:layout_width="96.1dp"
