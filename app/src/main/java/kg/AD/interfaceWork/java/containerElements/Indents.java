@@ -18,7 +18,7 @@ public class Indents extends AppCompatActivity {
 
         RelativeLayout relativeLayout = new RelativeLayout(this);
         TextView textView = new TextView(this);
-        textView.setBackgroundColor(Colors.COLOR_GREY);
+        textView.setBackgroundColor(Colors.SILVER);
         textView.setText(Strings.HELLO_JAVA_ELEMENT);
         textView.setTextSize(26);
 
