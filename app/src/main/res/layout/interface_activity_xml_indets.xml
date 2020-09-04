@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".interfaceWork.containerElements.XmlIndents">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGrey"
+        android:paddingStart="40dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="60dp"
+        android:text="@string/hello_android"
+        android:textSize="30sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="@color/colorGrey"
+        android:text="@string/hello_world"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/next_indents_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/java_element"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/next_ll_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/right_layout"
+        android:textSize="18sp"
+        tools:ignore="RelativeOverlap" />
+
+
+</RelativeLayout>
