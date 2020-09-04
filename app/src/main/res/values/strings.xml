@@ -2,9 +2,9 @@
     Button
     <string name="send">Отправить</string>
     <string name="right_layout">вперед</string>
-    <string name="left_layout">назад</string>
     <string name="java_element">java_element</string>
     <string name="xml_element">xml_element</string>
+    <string name="horizontal">horizontal orientation</string>
     Text
     <string name="app_name">AndroidData</string>
     <string name="hello_android">Hello Android!</string>
