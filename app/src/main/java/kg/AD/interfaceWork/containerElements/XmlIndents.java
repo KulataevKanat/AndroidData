@@ -15,7 +15,7 @@ public class XmlIndents extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.interface_activity_xml_indets);
+        setContentView(R.layout.activity_xml_indets);
         chapterButton();
     }
 

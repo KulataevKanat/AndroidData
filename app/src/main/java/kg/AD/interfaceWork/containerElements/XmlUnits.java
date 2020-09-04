@@ -15,7 +15,7 @@ public class XmlUnits extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.interface_activity_xml_units);
+        setContentView(R.layout.activity_xml_units);
         chapterButton();
     }
 

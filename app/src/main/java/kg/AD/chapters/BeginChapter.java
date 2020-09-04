@@ -15,7 +15,7 @@ public class BeginChapter extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chapter_begin);
+        setContentView(R.layout.activity_begin);
         chapterButton();
     }
 

@@ -17,7 +17,7 @@ public class XmlElement extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.interface_activity_xml_element);
+        setContentView(R.layout.activity_xml_element);
         TextView textView = (TextView) findViewById(R.id.tv_xml);
         textView.setText(Strings.HELLO_XML_ELEMENT);
         textView.setTextSize(30);

@@ -17,7 +17,7 @@ public class GraphicApplication extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.begin_activity_graphic_application);
+        setContentView(R.layout.activity_graphic_application);
         chapterButton();
     }
 

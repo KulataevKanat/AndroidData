@@ -15,7 +15,7 @@ public class HelloAndroid extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.begin_activity_android_hello);
+        setContentView(R.layout.activity_android_hello);
         chapterButton();
 
     }
