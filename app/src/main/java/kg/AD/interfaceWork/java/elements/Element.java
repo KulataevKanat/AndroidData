@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.elements;
+package kg.AD.interfaceWork.java.elements;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ import kg.AD.R;
 import kg.AD.values.Classes;
 import kg.AD.values.Strings;
 
-public class JavaElement extends AppCompatActivity {
+public class Element extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.containerElements;
+package kg.AD.interfaceWork.java.containerElements;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,11 +7,10 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import kg.AD.R;
 import kg.AD.values.Colors;
 import kg.AD.values.Strings;
 
-public class JavaIndents extends AppCompatActivity {
+public class Indents extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

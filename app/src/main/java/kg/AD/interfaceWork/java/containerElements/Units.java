@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.containerElements;
+package kg.AD.interfaceWork.java.containerElements;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import kg.AD.values.Strings;
 
-public class JavaUnits extends AppCompatActivity {
+public class Units extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
