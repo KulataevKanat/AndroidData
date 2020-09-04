@@ -19,14 +19,14 @@ public class XmlUnits extends AppCompatActivity {
         chapterButton();
     }
 
-    public void chapterButton() {
+    private void chapterButton() {
         Button layout_change = (Button) findViewById(R.id.next_indents);
         Button layout_java_change = (Button) findViewById(R.id.next_units_java_element);
         layout_change.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_UNITS);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_INDENTS);
                         startActivity(intent);
                     }
                 }
