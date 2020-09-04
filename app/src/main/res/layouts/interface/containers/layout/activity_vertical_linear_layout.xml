@@ -8,22 +8,25 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/silver"
         android:text="@string/hello"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/silver"
         android:text="@string/android"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/silver"
         android:text="@string/xiaomi"
         android:textSize="30sp" />
 
@@ -32,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/horizontal"
-        android:textSize="25sp"/>
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/next_ll_java_element"
