@@ -3,34 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/dark_red"
     android:orientation="horizontal"
-    tools:context=".interfaceWork.xml.containers.HorizontalLinearLayout">
+    android:weightSum="4"
+    tools:context=".interfaceWorks.xml.containers.HorizontalLinearLayout">
 
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="150dp"
         android:layout_weight="1"
-        android:background="@color/silver"
+        android:background="@color/white"
         android:text="@string/hello"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="200dp"
         android:layout_weight="1"
         android:background="@color/silver"
-        android:text="@string/android"
+        android:text="@string/world"
         android:textSize="30sp" />
 
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="19dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="250dp"
         android:layout_weight="1"
-        android:background="@color/silver"
-        android:text="@string/xiaomi"
+        android:background="@color/gray"
+        android:text="@string/android"
         android:textSize="30sp" />
 
 </LinearLayout>
