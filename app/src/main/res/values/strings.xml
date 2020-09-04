@@ -16,6 +16,7 @@
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
     <string name="xiaomi">Xiaomi</string>
     <string name="android">Android</string>
+    <string name="world">World</string>
     <string name="hello">Hello</string>
 
 </resources>
