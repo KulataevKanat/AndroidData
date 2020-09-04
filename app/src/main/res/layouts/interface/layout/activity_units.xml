@@ -11,14 +11,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
-        android:background="@color/colorGrey"
+        android:background="@color/silver"
         android:text="@string/hello_world"
         android:textSize="30sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/colorGrey"
+        android:background="@color/silver"
         android:text="@string/hello_world"
         android:textSize="30sp" />
 
@@ -28,7 +28,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
-        android:background="@color/colorGrey"
+        android:background="@color/silver"
         android:gravity="center"
         android:maxWidth="200dp"
         android:maxHeight="200dp"
