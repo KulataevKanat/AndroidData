@@ -9,13 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".chapters.BeginChapter" />
         <activity android:name=".begin.HelloAndroid" />
         <activity android:name=".begin.GraphicApplication" />
@@ -27,6 +20,15 @@
         <activity android:name=".interfaceWork.containerElements.XmlUnits" />
         <activity android:name=".interfaceWork.containerElements.JavaIndents" />
         <activity android:name=".interfaceWork.containerElements.XmlIndents" />
+        <activity android:name=".interfaceWork.containers.JavaLinearLayout" />
+        <activity android:name=".interfaceWork.containers.XmlLinearLayout" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
