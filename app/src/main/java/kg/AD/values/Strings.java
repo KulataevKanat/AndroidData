@@ -5,4 +5,7 @@ public class Strings {
     public final static String HELLO_JAVA_ELEMENT = "Hello Java Interface!";
     public final static String HELLO_XML_ELEMENT = "Hello XML Interface!";
     public final static String JAVA_UNIT_ELEMENT = "В метод setLayoutParams() передается объект ViewGroup.LayoutParams. Этот объект инициализируется двумя параметрами: шириной и высотой.";
+    public final static String HELLO = "Hello";
+    public final static String JAVA= "JAVA";
+    public final static String CODE= "CODE";
 }
