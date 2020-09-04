@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.xml.containers;
+package kg.AD.interfaceWorks.xml.containers;
 
 import androidx.appcompat.app.AppCompatActivity;
 

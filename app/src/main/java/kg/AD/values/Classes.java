@@ -2,12 +2,12 @@ package kg.AD.values;
 
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
-import kg.AD.interfaceWork.java.containers.LinearLayout;
-import kg.AD.interfaceWork.xml.containerElements.Indents;
-import kg.AD.interfaceWork.xml.containerElements.Units;
-import kg.AD.interfaceWork.xml.containers.HorizontalLinearLayout;
-import kg.AD.interfaceWork.xml.containers.VerticalLinearLayout;
-import kg.AD.interfaceWork.xml.elements.Element;
+import kg.AD.interfaceWorks.java.containers.LinearLayout;
+import kg.AD.interfaceWorks.xml.containerElements.Indents;
+import kg.AD.interfaceWorks.xml.containerElements.Units;
+import kg.AD.interfaceWorks.xml.containers.HorizontalLinearLayout;
+import kg.AD.interfaceWorks.xml.containers.VerticalLinearLayout;
+import kg.AD.interfaceWorks.xml.elements.Element;
 
 public class Classes {
     /**
@@ -21,10 +21,10 @@ public class Classes {
      * JAVA:
      */
     //containerElements
-    public final static Class<?> JAVA_ELEMENT = kg.AD.interfaceWork.java.elements.Element.class;
+    public final static Class<?> JAVA_ELEMENT = kg.AD.interfaceWorks.java.elements.Element.class;
     //elements
-    public final static Class<?> JAVA_UNITS = kg.AD.interfaceWork.java.containerElements.Units.class;
-    public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWork.java.containerElements.Indents.class;
+    public final static Class<?> JAVA_UNITS = kg.AD.interfaceWorks.java.containerElements.Units.class;
+    public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWorks.java.containerElements.Indents.class;
     //containers
     public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayout.class;
     /**

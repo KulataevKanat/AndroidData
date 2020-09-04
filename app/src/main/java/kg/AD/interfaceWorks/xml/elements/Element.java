@@ -1,4 +1,4 @@
-package kg.AD.interfaceWork.xml.elements;
+package kg.AD.interfaceWorks.xml.elements;
 
 import android.content.Intent;
 import android.os.Bundle;
