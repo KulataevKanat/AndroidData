@@ -27,7 +27,10 @@ public class Classes {
     public final static Class<?> JAVA_UNITS = JavaUnits.class;
     public final static Class<?> JAVA_INDENTS = JavaIndents.class;
     public final static Class<?> XML_INDENTS = XmlIndents.class;
-
+    //containers
+    public final static Class<?> JAVA_LINEAR_LAYOUT = XmlIndents.class;
+    public final static Class<?> XML_HORIZONTAL_LINEAR_LAYOUT = XmlIndents.class;
+    public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = XmlIndents.class;
 
 
     /**
