@@ -1,4 +1,10 @@
 <resources>
+    Button
+    <string name="send">Отправить</string>
+    <string name="right_layout">вперед</string>
+    <string name="left_layout">назад</string>
+    <string name="java_element">java_element</string>
+    <string name="xml_element">xml_element</string>
     Text
     <string name="app_name">AndroidData</string>
     <string name="hello_android">Hello Android!</string>
@@ -8,11 +14,8 @@
     <string name="chapter_two">глава2.Основы Интерфейса</string>
     <string name="hello_xml_interface">Hello XML Interface</string>
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
-    Button
-    <string name="send">Отправить</string>
-    <string name="right_layout">вперед</string>
-    <string name="left_layout">назад</string>
-    <string name="java_element">java_element</string>
-    <string name="xml_element">xml_element</string>
+    <string name="xiaomi">Xiaomi</string>
+    <string name="android">Android</string>
+    <string name="hello">Hello</string>
 
 </resources>
