@@ -2,12 +2,12 @@ package kg.AD.values;
 
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
-import kg.AD.interfaceWork.containerElements.JavaIndents;
-import kg.AD.interfaceWork.containerElements.JavaUnits;
-import kg.AD.interfaceWork.containerElements.XmlIndents;
-import kg.AD.interfaceWork.containerElements.XmlUnits;
-import kg.AD.interfaceWork.elements.JavaElement;
-import kg.AD.interfaceWork.elements.XmlElement;
+import kg.AD.interfaceWork.java.containers.LinearLayout;
+import kg.AD.interfaceWork.xml.containerElements.Indents;
+import kg.AD.interfaceWork.xml.containerElements.Units;
+import kg.AD.interfaceWork.xml.containers.HorizontalLinearLayout;
+import kg.AD.interfaceWork.xml.containers.VerticalLinearLayout;
+import kg.AD.interfaceWork.xml.elements.Element;
 
 public class Classes {
     /**
@@ -18,20 +18,27 @@ public class Classes {
 
     /**
      * interfaceWork packages:
+     * JAVA:
      */
     //containerElements
-    public final static Class<?> JAVA_ELEMENT = JavaElement.class;
-    public final static Class<?> XML_ELEMENT = XmlElement.class;
+    public final static Class<?> JAVA_ELEMENT = kg.AD.interfaceWork.java.elements.Element.class;
     //elements
-    public final static Class<?> XML_UNITS = XmlUnits.class;
-    public final static Class<?> JAVA_UNITS = JavaUnits.class;
-    public final static Class<?> JAVA_INDENTS = JavaIndents.class;
-    public final static Class<?> XML_INDENTS = XmlIndents.class;
+    public final static Class<?> JAVA_UNITS = kg.AD.interfaceWork.java.containerElements.Units.class;
+    public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWork.java.containerElements.Indents.class;
     //containers
-    public final static Class<?> JAVA_LINEAR_LAYOUT = XmlIndents.class;
-    public final static Class<?> XML_HORIZONTAL_LINEAR_LAYOUT = XmlIndents.class;
-    public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = XmlIndents.class;
-
+    public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayout.class;
+    /**
+     * interfaceWork packages:
+     * XML:
+     */
+    //containerElements
+    public final static Class<?> XML_ELEMENT = Element.class;
+    //elements
+    public final static Class<?> XML_UNITS = Units.class;
+    public final static Class<?> XML_INDENTS = Indents.class;
+    //containers
+    public final static Class<?> XML_HORIZONTAL_LINEAR_LAYOUT = HorizontalLinearLayout.class;
+    public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = VerticalLinearLayout.class;
 
     /**
      * chapters packages:
