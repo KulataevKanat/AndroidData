@@ -2,12 +2,10 @@ package kg.AD.values;
 
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
-import kg.AD.interfaceWorks.java.containers.LinearLayout;
-import kg.AD.interfaceWorks.xml.containerElements.Indents;
-import kg.AD.interfaceWorks.xml.containerElements.Units;
-import kg.AD.interfaceWorks.xml.containers.HorizontalLinearLayout;
-import kg.AD.interfaceWorks.xml.containers.VerticalLinearLayout;
-import kg.AD.interfaceWorks.xml.elements.Element;
+import kg.AD.interfaceWorks.java.containers.*;
+import kg.AD.interfaceWorks.xml.containerElements.*;
+import kg.AD.interfaceWorks.xml.containers.*;
+import kg.AD.interfaceWorks.xml.elements.*;
 
 public class Classes {
     /**
@@ -26,7 +24,7 @@ public class Classes {
     public final static Class<?> JAVA_UNITS = kg.AD.interfaceWorks.java.containerElements.Units.class;
     public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWorks.java.containerElements.Indents.class;
     //containers
-    public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayout.class;
+    public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayoutContainer.class;
     /**
      * interfaceWork packages:
      * XML:
