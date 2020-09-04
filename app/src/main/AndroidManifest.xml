@@ -13,22 +13,22 @@
         <!--Interface chapter-->
         <!--containers package:-->
         <!--java package:-->
-        <activity android:name=".interfaceWork.java.containers.LinearLayout" />
+        <activity android:name=".interfaceWorks.java.containers.LinearLayout" />
         <!--xml package:-->
-        <activity android:name=".interfaceWork.xml.containers.VerticalLinearLayout" />
-        <activity android:name=".interfaceWork.xml.containers.HorizontalLinearLayout" />
+        <activity android:name=".interfaceWorks.xml.containers.VerticalLinearLayout" />
+        <activity android:name=".interfaceWorks.xml.containers.HorizontalLinearLayout" />
         <!--containerElements package:-->
         <!--java package:-->
-        <activity android:name=".interfaceWork.java.containerElements.Indents" />
-        <activity android:name=".interfaceWork.java.containerElements.Units" />
+        <activity android:name=".interfaceWorks.java.containerElements.Indents" />
+        <activity android:name=".interfaceWorks.java.containerElements.Units" />
         <!--xml package:-->
-        <activity android:name=".interfaceWork.xml.containerElements.Indents" />
-        <activity android:name=".interfaceWork.xml.containerElements.Units" />
+        <activity android:name=".interfaceWorks.xml.containerElements.Indents" />
+        <activity android:name=".interfaceWorks.xml.containerElements.Units" />
         <!--elements package:-->
         <!--java package:-->
-        <activity android:name=".interfaceWork.java.elements.Element" />
+        <activity android:name=".interfaceWorks.java.elements.Element" />
         <!--xml package:-->
-        <activity android:name=".interfaceWork.xml.elements.Element" />
+        <activity android:name=".interfaceWorks.xml.elements.Element" />
         <!--Begin chapter-->
         <activity android:name=".begin.DisplayMessageActivity" />
         <activity android:name=".begin.GraphicApplication" />
