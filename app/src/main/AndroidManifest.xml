@@ -9,16 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".interfaceWork.containerElements.JavaUnits">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".interfaceWork.containerElements.XmlUnits">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,37 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".interfaceWork.elements.XmlElement">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".interfaceWork.elements.JavaElement">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".chapters.InterfaceChapter">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".chapters.BeginChapter" />
+        <activity android:name=".begin.HelloAndroid" />
+        <activity android:name=".begin.GraphicApplication" />
         <activity android:name=".begin.DisplayMessageActivity" />
-        <activity android:name=".begin.GraphicApplication">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".begin.HelloAndroid">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".chapters.BeginChapter">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".chapters.InterfaceChapter" />
+        <activity android:name=".interfaceWork.elements.JavaElement" />
+        <activity android:name=".interfaceWork.elements.XmlElement" />
+        <activity android:name=".interfaceWork.containerElements.JavaUnits" />
+        <activity android:name=".interfaceWork.containerElements.XmlUnits" />
+        <activity android:name=".interfaceWork.containerElements.JavaIndents" />
+        <activity android:name=".interfaceWork.containerElements.XmlIndents" />
     </application>
 
 </manifest>
