@@ -10,6 +10,7 @@
     <string name="hello_android">Hello Android!</string>
     <string name="hello_world">Hello World!</string>
     <string name="sms">Введите сообщение</string>
+    <string name="rl_text">Введите текст</string>
     <string name="chapter_one">глава1.Работа с Андроид</string>
     <string name="chapter_two">глава2.Основы Интерфейса</string>
     <string name="hello_xml_interface">Hello XML Interface</string>
@@ -18,5 +19,11 @@
     <string name="android">Android</string>
     <string name="world">World</string>
     <string name="hello">Hello</string>
+    RelativeLayout
+    <string name="left_top">Left Top</string>
+    <string name="right_top">Right Top</string>
+    <string name="left_above">Left Above</string>
+    <string name="right_above">Right Above</string>
+
 
 </resources>
