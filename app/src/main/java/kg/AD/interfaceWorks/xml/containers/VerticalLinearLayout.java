@@ -27,7 +27,7 @@ public class VerticalLinearLayout extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_VERTICAL_LINEAR_LAYOUT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_RELATIVE_LAYOUT);
                         startActivity(intent);
                     }
                 }
