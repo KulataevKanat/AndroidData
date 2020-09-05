@@ -8,4 +8,7 @@ public class Strings {
     public final static String HELLO = "Hello";
     public final static String JAVA = "JAVA";
     public final static String CODE = "CODE";
+    public final static String SEND = "Отправить";
+    public final static String RL_TEXT = "Введите текст";
+
 }
