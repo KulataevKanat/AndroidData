@@ -5,6 +5,7 @@ import kg.AD.chapters.*;
 import kg.AD.interfaceWorks.java.containers.*;
 import kg.AD.interfaceWorks.xml.containerElements.*;
 import kg.AD.interfaceWorks.xml.containers.*;
+import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
 
 public class Classes {
@@ -13,6 +14,7 @@ public class Classes {
      */
     public final static Class<?> HELLO_ANDROID = HelloAndroid.class;
     public final static Class<?> GRAPHICAL_APPLICATION = GraphicApplication.class;
+    public final static Class<?> DISPLAY_MESSAGE_ACTIVITY = DisplayMessageActivity.class;
 
     /**
      * interfaceWork packages:
@@ -25,6 +27,8 @@ public class Classes {
     public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWorks.java.containerElements.Indents.class;
     //containers
     public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayoutContainer.class;
+    public final static Class<?> JAVA_RELATIVE_LAYOUT = kg.AD.interfaceWorks.java.containers.RelativeLayoutContainer.class;
+
     /**
      * interfaceWork packages:
      * XML:
@@ -37,6 +41,7 @@ public class Classes {
     //containers
     public final static Class<?> XML_HORIZONTAL_LINEAR_LAYOUT = HorizontalLinearLayout.class;
     public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = VerticalLinearLayout.class;
+    public final static Class<?> XML_RELATIVE_LAYOUT = RelativeLayoutContainer.class;
 
     /**
      * chapters packages:
