@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaceWorks.xml.containers.RelativeLayoutContainer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/left_top"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/right_top"
+        android:textSize="26sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next_rl_java_element"
+        android:text="@string/left_above"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next_lg"
+        android:layout_alignEnd="@+id/next_lg"
+        android:layout_alignRight="@+id/next_lg"
+        android:text="@string/right_above"
+        android:textSize="26sp"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/et_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/rl_text"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/rl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_relative_layout"
+        android:layout_alignEnd="@+id/et_relative_layout"
+        android:layout_alignRight="@+id/et_relative_layout"
+        android:gravity="center"
+        android:onClick="sendRlMessage"
+        android:text="@string/send"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/next_lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/right_layout"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/next_rl_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/java_element"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
