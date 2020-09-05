@@ -9,35 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!--Interface chapter-->
-        <!--containers package:-->
-        <!--java package:-->
+        <!-- Interface chapter -->
+        <!-- containers package: -->
+        <!-- java package: -->
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
-        <!--xml package:-->
+        <activity android:name=".interfaceWorks.java.containers.RelativeLayoutContainer" />
+        <!-- xml package: -->
         <activity android:name=".interfaceWorks.xml.containers.VerticalLinearLayout" />
         <activity android:name=".interfaceWorks.xml.containers.HorizontalLinearLayout" />
-        <!--containerElements package:-->
-        <!--java package:-->
+        <activity android:name=".interfaceWorks.xml.containers.RelativeLayoutContainer" />
+        <!-- containerElements package: -->
+        <!-- java package: -->
         <activity android:name=".interfaceWorks.java.containerElements.Indents" />
         <activity android:name=".interfaceWorks.java.containerElements.Units" />
-        <!--xml package:-->
+        <!-- xml package: -->
         <activity android:name=".interfaceWorks.xml.containerElements.Indents" />
         <activity android:name=".interfaceWorks.xml.containerElements.Units" />
-        <!--elements package:-->
-        <!--java package:-->
+        <!-- elements package: -->
+        <!-- java package: -->
         <activity android:name=".interfaceWorks.java.elements.Element" />
-        <!--xml package:-->
+        <!-- xml package: -->
         <activity android:name=".interfaceWorks.xml.elements.Element" />
-        <!--Begin chapter-->
+        <!-- Begin chapter -->
         <activity android:name=".begin.DisplayMessageActivity" />
         <activity android:name=".begin.GraphicApplication" />
         <activity android:name=".begin.HelloAndroid" />
-
-        <!--chapters package:-->
+        <!-- chapters package: -->
         <activity android:name=".chapters.InterfaceChapter" />
         <activity android:name=".chapters.BeginChapter" />
-        <!--MainActivity-->
+        <!-- MainActivity -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,7 +45,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
