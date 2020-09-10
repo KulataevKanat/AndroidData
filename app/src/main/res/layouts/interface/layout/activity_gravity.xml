@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".interfaceWorks.xml.elements.GravityElement">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/hello_android"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/next_gravity_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right|center"
+        android:text="@string/java_element"
+        android:textSize="25sp"
+        tools:ignore="RtlHardcoded" />
+
+
+    <Button
+        android:id="@+id/next_tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right|center"
+        android:text="@string/right_layout"
+        android:textSize="25sp"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>
