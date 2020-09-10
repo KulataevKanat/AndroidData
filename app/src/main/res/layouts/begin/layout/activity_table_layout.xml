@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaceWorks.xml.containers.TableLayoutContainer">
+
+    <TableRow
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5"
+            android:text="@string/login"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:hint="@string/login_hint"
+            tools:ignore="Autofill,TextFields" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="0.5"
+            android:text="@string/mail"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:hint="@string/alias"
+            tools:ignore="Autofill,TextFields" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/send_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="25sp"
+            android:onClick="sendTLMessage"
+            android:text="@string/send" />
+
+        <Button
+            android:id="@+id/next_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/right_layout"
+            android:textSize="25sp"
+            tools:ignore="RtlHardcoded" />
+    </TableRow>
+
+</TableLayout>
