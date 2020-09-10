@@ -17,6 +17,10 @@
     <string name="android">Android</string>
     <string name="world">World</string>
     <string name="hello">Hello</string>
+    <string name="login">Login</string>
+    <string name="mail">Gmail</string>
+    <string name="login_hint">Login</string>
+    <string name="alias">alias@gmail.ru</string>
     RelativeLayout
     <string name="left_top">Left Top</string>
     <string name="right_top">Right Top</string>
