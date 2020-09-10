@@ -11,8 +11,6 @@
     <string name="hello_world">Hello World!</string>
     <string name="sms">Введите сообщение</string>
     <string name="rl_text">Введите текст</string>
-    <string name="chapter_one">глава1.Работа с Андроид</string>
-    <string name="chapter_two">глава2.Основы Интерфейса</string>
     <string name="hello_xml_interface">Hello XML Interface</string>
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
     <string name="xiaomi">Xiaomi</string>
@@ -24,6 +22,18 @@
     <string name="right_top">Right Top</string>
     <string name="left_above">Left Above</string>
     <string name="right_above">Right Above</string>
+    Chapters
+    <string name="chapter_one">глава1.Работа с Андроид</string>
+    <string name="chapter_two">глава2.Основы Интерфейса</string>
+    <string name="chapter_three">глава3.Основные элементы</string>
+    <string name="chapter_four">глава4.Ресурсы</string>
+    <string name="chapter_five">глава5.Activity</string>
+    <string name="chapter_six">глава6.Работа с изображениями</string>
+    <string name="chapter_seven">глава7.Адаптеры и списки</string>
+    <string name="chapter_eight">глава8.Стили и темы</string>
+    <string name="chapter_nine">глава9.Меню</string>
+    <string name="chapter_ten">глава10.Фрагменты</string>
+    <string name="chapter_eleven">глава11.Многопоточность и асинхронность</string>
 
 
 </resources>
