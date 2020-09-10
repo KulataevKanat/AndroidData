@@ -52,5 +52,10 @@ public class Classes {
     public final static Class<?> MAIN_ACTIVITY = MainActivity.class;
     public final static Class<?> BEGIN_CHAPTER = BeginChapter.class;
     public final static Class<?> INTERFACE_CHAPTER = InterfaceChapter.class;
+    public final static Class<?> MAIN_ELEMENTS_CHAPTER = MainElementsChapter.class;
+    public final static Class<?> RESOURCES_CHAPTER = ResourcesChapter.class;
+    public final static Class<?> ACTIVITY_CHAPTER = ActivityChapter.class;
+    public final static Class<?> IMAGE_CHAPTER = ImageChapter.class;
+    public final static Class<?> ADAPTERS_AND_LISTS_CHAPTER = AdaptersAndListsChapter.class;
 
 }
