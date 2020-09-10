@@ -45,6 +45,7 @@ public class Classes {
     public final static Class<?> XML_HORIZONTAL_LINEAR_LAYOUT = HorizontalLinearLayout.class;
     public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = VerticalLinearLayout.class;
     public final static Class<?> XML_RELATIVE_LAYOUT = RelativeLayoutContainer.class;
+    public final static Class<?> XML_TABLE_LAYOUT = TableLayoutContainer.class;
 
     /**
      * chapters packages:
