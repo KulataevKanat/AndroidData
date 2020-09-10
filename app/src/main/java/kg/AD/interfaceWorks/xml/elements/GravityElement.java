@@ -26,7 +26,7 @@ public class GravityElement extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_GRAVITY_ELEMENT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_TABLE_LAYOUT);
                         startActivity(intent);
                     }
                 }
