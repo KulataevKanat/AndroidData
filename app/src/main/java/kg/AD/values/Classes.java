@@ -1,5 +1,6 @@
 package kg.AD.values;
 
+import kg.AD.MainActivity;
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
 import kg.AD.interfaceWorks.java.containers.*;
@@ -20,9 +21,10 @@ public class Classes {
      * interfaceWork packages:
      * JAVA:
      */
-    //containerElements
-    public final static Class<?> JAVA_ELEMENT = kg.AD.interfaceWorks.java.elements.Element.class;
     //elements
+    public final static Class<?> JAVA_ELEMENT = kg.AD.interfaceWorks.java.elements.Element.class;
+    public final static Class<?> JAVA_GRAVITY_ELEMENT = kg.AD.interfaceWorks.java.elements.GravityElement.class;
+    //containerElements
     public final static Class<?> JAVA_UNITS = kg.AD.interfaceWorks.java.containerElements.Units.class;
     public final static Class<?> JAVA_INDENTS = kg.AD.interfaceWorks.java.containerElements.Indents.class;
     //containers
@@ -33,9 +35,10 @@ public class Classes {
      * interfaceWork packages:
      * XML:
      */
-    //containerElements
-    public final static Class<?> XML_ELEMENT = Element.class;
     //elements
+    public final static Class<?> XML_ELEMENT = Element.class;
+    public final static Class<?> XML_GRAVITY_ELEMENT = GravityElement.class;
+    //containerElements
     public final static Class<?> XML_UNITS = Units.class;
     public final static Class<?> XML_INDENTS = Indents.class;
     //containers
@@ -46,6 +49,7 @@ public class Classes {
     /**
      * chapters packages:
      */
+    public final static Class<?> MAIN_ACTIVITY = MainActivity.class;
     public final static Class<?> BEGIN_CHAPTER = BeginChapter.class;
     public final static Class<?> INTERFACE_CHAPTER = InterfaceChapter.class;
 
