@@ -41,6 +41,7 @@ public class Classes {
     //elements
     public final static Class<?> XML_ELEMENT = Element.class;
     public final static Class<?> XML_GRAVITY_ELEMENT = GravityElement.class;
+    public final static Class<?> XML_MAIN_PANEL_ELEMENT = MainPanel.class;
     //containerElements
     public final static Class<?> XML_UNITS = Units.class;
     public final static Class<?> XML_INDENTS = Indents.class;
