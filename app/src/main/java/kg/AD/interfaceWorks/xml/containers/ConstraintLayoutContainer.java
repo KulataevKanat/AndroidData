@@ -25,7 +25,7 @@ public class ConstraintLayoutContainer extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_CONSTRAINT_LAYOUT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.JAVA_SCROLL_VIEW_LAYOUT);
                         startActivity(intent);
                     }
                 }
