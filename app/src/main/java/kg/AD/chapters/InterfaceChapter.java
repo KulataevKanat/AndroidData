@@ -22,6 +22,7 @@ public class InterfaceChapter extends AppCompatActivity {
     private void chapterButton() {
         Button layout_xml_change = (Button) findViewById(R.id.next_xml_element);
         Button layout_java_change = (Button) findViewById(R.id.next_java_element);
+        Button layout_containers = (Button) findViewById(R.id.next_containers);
         layout_xml_change.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -36,6 +37,15 @@ public class InterfaceChapter extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(getApplicationContext(), Classes.JAVA_ELEMENT);
+                        startActivity(intent);
+                    }
+                }
+        );
+        layout_containers.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getApplicationContext(), Classes.CONTAINERS_CHAPTER);
                         startActivity(intent);
                     }
                 }
