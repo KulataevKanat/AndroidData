@@ -20,12 +20,23 @@ public class ConstraintLayoutContainer extends AppCompatActivity {
     }
 
     private void chapterButton() {
-        Button layout_change = (Button) findViewById(R.id.next_sv);
-        layout_change.setOnClickListener(
+        Button scroll_view = (Button) findViewById(R.id.next_sv);
+        Button layout_change = (Button) findViewById(R.id.next_panel);
+        scroll_view.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(getApplicationContext(), Classes.JAVA_SCROLL_VIEW_LAYOUT);
+                        startActivity(intent);
+                    }
+                }
+        );
+
+        layout_change.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_MAIN_PANEL_ELEMENT);
                         startActivity(intent);
                     }
                 }
