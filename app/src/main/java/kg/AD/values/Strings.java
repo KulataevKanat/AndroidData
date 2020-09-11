@@ -11,4 +11,21 @@ public class Strings {
     public final static String SEND = "Отправить";
     public final static String RL_TEXT = "Введите текст";
 
+
+    //ScrollView
+    public final static String H = "H";
+    public final static String E = "e";
+    public final static String L = "l";
+    public final static String O = "o";
+    public final static String SPACE = " ";
+    public final static String J = "J";
+    public final static String A = "a";
+    public final static String V = "v";
+    public final static String I = "I";
+    public final static String N = "n";
+    public final static String T = "t";
+    public final static String R = "r";
+    public final static String F = "f";
+    public final static String C = "c";
+    public final static String EXCLAMATION_POINT = "!";
 }
