@@ -5,6 +5,11 @@
     <string name="java_element">java_element</string>
     <string name="xml_element">xml_element</string>
     <string name="horizontal">horizontal orientation</string>
+    <string name="scroll_view">Scroll View</string>
+    <string name="click">Click</string>
+    <string name="cancel">Cancel</string>
+    <string name="containers">containers</string>
+    <string name="ok">OK</string>
     Text
     <string name="app_name">AndroidData</string>
     <string name="hello_android">Hello Android!</string>
@@ -14,7 +19,8 @@
     <string name="hello_xml_interface">Hello XML Interface</string>
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
     <string name="cl_text">Во-первых, здесь элемент позиционируется относительно контейнера ConstraintLayout: от верхней и левой границы контейнера до соответствующих границ ImageView по 16 dip.</string>
-
+    <string name="todo">TODO</string>
+    <string name="zero_clicks">0 Clicks</string>
     <string name="xiaomi">Xiaomi</string>
     <string name="android">Android</string>
     <string name="world">World</string>
@@ -53,15 +59,13 @@
     Chapters
     <string name="chapter_one">глава1.Работа с Андроид</string>
     <string name="chapter_two">глава2.Основы Интерфейса</string>
+    <string name="chapter2">глава 2</string>
     <string name="chapter_three">глава3.Основные элементы</string>
+    <string name="chapter3">глава 3</string>
     <string name="chapter_four">глава4.Ресурсы</string>
     <string name="chapter_five">глава5.Activity</string>
     <string name="chapter_six">глава6.Работа с изображениями</string>
     <string name="chapter_seven">глава7.Адаптеры и списки</string>
-    <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
-    <string name="todo">TODO</string>
-    <string name="containers">containers</string>
 
 
 </resources>
