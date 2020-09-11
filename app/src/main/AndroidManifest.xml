@@ -16,27 +16,22 @@
         Interface chapter
         containers package:
         java package:
+        <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.RelativeLayoutContainer" />
 
+
         xml package:
-        <activity android:name=".interfaceWorks.xml.containers.TLCDisplayMessage"/>
-        <activity android:name=".interfaceWorks.xml.containers.TableLayoutContainer"/>
+        <activity android:name=".interfaceWorks.xml.containers.FrameLayoutContainer" />
+        <activity android:name=".interfaceWorks.xml.containers.TLCDisplayMessage" />
+        <activity android:name=".interfaceWorks.xml.containers.TableLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.RelativeLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.VerticalLinearLayout" />
         <activity android:name=".interfaceWorks.xml.containers.HorizontalLinearLayout" />
-
-        containerElements package:
-        java package:
         <activity android:name=".interfaceWorks.java.containerElements.Indents" />
         <activity android:name=".interfaceWorks.java.containerElements.Units" />
-
-        xml package:
         <activity android:name=".interfaceWorks.xml.containerElements.Indents" />
         <activity android:name=".interfaceWorks.xml.containerElements.Units" />
-
-        elements package:
-        java package:
         <activity android:name=".interfaceWorks.java.elements.Element" />
         <activity android:name=".interfaceWorks.java.elements.GravityElement" />
         <activity android:name=".interfaceWorks.xml.elements.GravityElement" />
@@ -51,9 +46,6 @@
         <activity android:name=".chapters.MainElementsChapter" />
         <activity android:name=".chapters.InterfaceChapter" />
         <activity android:name=".chapters.BeginChapter" />
-
-
-        MainActivity
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
