@@ -25,7 +25,7 @@ public class GridLayoutContainer extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_GRID_LAYOUT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_CONSTRAINT_LAYOUT);
                         startActivity(intent);
                     }
                 }
