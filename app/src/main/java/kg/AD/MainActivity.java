@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button activity = (Button) findViewById(R.id.chapter5);
         Button image = (Button) findViewById(R.id.chapter6);
         Button adapters_and_lists = (Button) findViewById(R.id.chapter7);
+
         begin.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
