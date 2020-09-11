@@ -14,6 +14,7 @@
         <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.RelativeLayoutContainer" />
+        <activity android:name=".interfaceWorks.xml.containers.ConstraintLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.GridLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.TLCDisplayMessage" />
