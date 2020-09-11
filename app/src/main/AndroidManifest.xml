@@ -29,6 +29,9 @@
         <activity android:name=".interfaceWorks.xml.containerElements.Units" />
         <activity android:name=".interfaceWorks.java.elements.Element" />
         <activity android:name=".interfaceWorks.java.elements.GravityElement" />
+        <activity android:name=".interfaceWorks.xml.elements.MainPanel" />
+        <activity android:name=".interfaceWorks.xml.elements.TextPanel" />
+        <activity android:name=".interfaceWorks.xml.elements.ButtonPanel" />
         <activity android:name=".interfaceWorks.xml.elements.GravityElement" />
         <activity android:name=".interfaceWorks.xml.elements.Element" />
         <activity android:name=".begin.DisplayMessageActivity" />
