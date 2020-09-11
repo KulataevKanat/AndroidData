@@ -50,6 +50,7 @@ public class Classes {
     public final static Class<?> XML_TABLE_LAYOUT = TableLayoutContainer.class;
     public final static Class<?> XML_FRAME_LAYOUT = FrameLayoutContainer.class;
     public final static Class<?> XML_GRID_LAYOUT = GridLayoutContainer.class;
+    public final static Class<?> XML_CONSTRAINT_LAYOUT = ConstraintLayoutContainer.class;
 
     /**
      * chapters packages:
