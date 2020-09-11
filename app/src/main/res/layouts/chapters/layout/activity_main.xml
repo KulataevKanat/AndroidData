@@ -1,72 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/chapter1"
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_one"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/chapter2"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_two"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_one"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/chapter3"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_three"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_two"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/chapter4"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_four"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_three"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/chapter5"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_five"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_four"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/chapter6"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_six"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_five"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/chapter7"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:gravity="center"
-        android:text="@string/chapter_seven"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/chapter6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_six"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/chapter7"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="@string/chapter_seven"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</ScrollView>
