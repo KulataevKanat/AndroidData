@@ -49,6 +49,7 @@ public class Classes {
     public final static Class<?> XML_RELATIVE_LAYOUT = RelativeLayoutContainer.class;
     public final static Class<?> XML_TABLE_LAYOUT = TableLayoutContainer.class;
     public final static Class<?> XML_FRAME_LAYOUT = FrameLayoutContainer.class;
+    public final static Class<?> XML_GRID_LAYOUT = GridLayoutContainer.class;
 
     /**
      * chapters packages:
