@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
+        <activity android:name=".interfaceWorks.java.containers.ScrollViewContainer" />
         <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.RelativeLayoutContainer" />
@@ -33,6 +34,7 @@
         <activity android:name=".begin.DisplayMessageActivity" />
         <activity android:name=".begin.GraphicApplication" />
         <activity android:name=".begin.HelloAndroid" />
+        <activity android:name=".chapters.AllContainers" />
         <activity android:name=".chapters.AdaptersAndListsChapter" />
         <activity android:name=".chapters.ImageChapter" />
         <activity android:name=".chapters.ActivityChapter" />
