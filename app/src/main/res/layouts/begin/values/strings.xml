@@ -26,6 +26,20 @@
     <string name="right_top">Right Top</string>
     <string name="left_above">Left Above</string>
     <string name="right_above">Right Above</string>
+    GridLayout
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="thirteen">13</string>
     Chapters
     <string name="chapter_one">глава1.Работа с Андроид</string>
     <string name="chapter_two">глава2.Основы Интерфейса</string>
@@ -34,10 +48,6 @@
     <string name="chapter_five">глава5.Activity</string>
     <string name="chapter_six">глава6.Работа с изображениями</string>
     <string name="chapter_seven">глава7.Адаптеры и списки</string>
-    <string name="chapter_eight">глава8.Стили и темы</string>
-    <string name="chapter_nine">глава9.Меню</string>
-    <string name="chapter_ten">глава10.Фрагменты</string>
-    <string name="chapter_eleven">глава11.Многопоточность и асинхронность</string>
 
 
 </resources>
