@@ -10,6 +10,9 @@ public class Strings {
     public final static String CODE = "CODE";
     public final static String SEND = "Отправить";
     public final static String RL_TEXT = "Введите текст";
+    public final static String PLUS = "+";
+    public final static String MINUS = "-";
+
 
 
     //ScrollView
