@@ -59,7 +59,8 @@
             android:layout_weight="0.5"
             android:textSize="25sp"
             android:onClick="sendTLMessage"
-            android:text="@string/send" />
+            android:text="@string/send"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/next_fl"
@@ -68,7 +69,7 @@
             android:layout_weight="1"
             android:text="@string/right_layout"
             android:textSize="25sp"
-            tools:ignore="RtlHardcoded" />
+            tools:ignore="ButtonStyle,RtlHardcoded" />
     </TableRow>
 
 </TableLayout>
