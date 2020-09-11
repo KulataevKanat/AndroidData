@@ -26,7 +26,7 @@ public class FrameLayoutContainer extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_FRAME_LAYOUT);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_GRID_LAYOUT);
                         startActivity(intent);
                     }
                 }
