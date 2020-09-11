@@ -14,9 +14,9 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:background="@color/blue"
+        android:contentDescription="@string/todo"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -31,7 +31,7 @@
         android:text="@string/cl_text"
         android:textSize="25sp"
 
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/next_sv"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
 
         app:layout_constraintRight_toRightOf="parent"
@@ -59,11 +59,11 @@
         android:gravity="center"
         android:text="@string/ok"
         android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button1"
+        app:layout_constraintBottom_toBottomOf="@+id/button1"
         app:layout_constraintLeft_toRightOf="@+id/button1" />
 
     <Button
-        android:id="@+id/next_sv"
+        android:id="@+id/next_panel"
         android:layout_width="wrap_content"
         android:layout_height="53dp"
         android:layout_marginStart="16dp"
@@ -71,7 +71,20 @@
         android:gravity="center"
         android:text="@string/right_layout"
         android:textSize="20sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintLeft_toRightOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/next_sv"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/scroll_view"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/next_panel"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
