@@ -32,6 +32,7 @@ public class Classes {
     public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayoutContainer.class;
     public final static Class<?> JAVA_RELATIVE_LAYOUT = kg.AD.interfaceWorks.java.containers.RelativeLayoutContainer.class;
     public final static Class<?> JAVA_FRAME_LAYOUT = kg.AD.interfaceWorks.java.containers.FrameLayoutContainer.class;
+    public final static Class<?> JAVA_SCROLL_VIEW_LAYOUT = kg.AD.interfaceWorks.java.containers.ScrollViewContainer.class;
 
     /**
      * interfaceWork packages:
@@ -63,5 +64,6 @@ public class Classes {
     public final static Class<?> ACTIVITY_CHAPTER = ActivityChapter.class;
     public final static Class<?> IMAGE_CHAPTER = ImageChapter.class;
     public final static Class<?> ADAPTERS_AND_LISTS_CHAPTER = AdaptersAndListsChapter.class;
+    public final static Class<?> CONTAINERS_CHAPTER = AllContainers.class;
 
 }
