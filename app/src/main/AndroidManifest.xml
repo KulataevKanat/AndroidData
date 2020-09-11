@@ -11,17 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
-
-
-        Interface chapter
-        containers package:
-        java package:
         <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.RelativeLayoutContainer" />
-
-
-        xml package:
+        <activity android:name=".interfaceWorks.xml.containers.GridLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.xml.containers.TLCDisplayMessage" />
         <activity android:name=".interfaceWorks.xml.containers.TableLayoutContainer" />
