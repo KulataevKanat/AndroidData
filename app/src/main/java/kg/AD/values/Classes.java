@@ -6,6 +6,7 @@ import kg.AD.chapters.*;
 import kg.AD.interfaceWorks.java.containers.*;
 import kg.AD.interfaceWorks.xml.containerElements.*;
 import kg.AD.interfaceWorks.xml.containers.*;
+import kg.AD.interfaceWorks.xml.containers.FrameLayoutContainer;
 import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
 
@@ -30,6 +31,7 @@ public class Classes {
     //containers
     public final static Class<?> JAVA_LINEAR_LAYOUT = LinearLayoutContainer.class;
     public final static Class<?> JAVA_RELATIVE_LAYOUT = kg.AD.interfaceWorks.java.containers.RelativeLayoutContainer.class;
+    public final static Class<?> JAVA_FRAME_LAYOUT = kg.AD.interfaceWorks.java.containers.FrameLayoutContainer.class;
 
     /**
      * interfaceWork packages:
@@ -46,6 +48,7 @@ public class Classes {
     public final static Class<?> XML_VERTICAL_LINEAR_LAYOUT = VerticalLinearLayout.class;
     public final static Class<?> XML_RELATIVE_LAYOUT = RelativeLayoutContainer.class;
     public final static Class<?> XML_TABLE_LAYOUT = TableLayoutContainer.class;
+    public final static Class<?> XML_FRAME_LAYOUT = FrameLayoutContainer.class;
 
     /**
      * chapters packages:
