@@ -13,6 +13,8 @@
     <string name="rl_text">Введите текст</string>
     <string name="hello_xml_interface">Hello XML Interface</string>
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
+    <string name="cl_text">Во-первых, здесь элемент позиционируется относительно контейнера ConstraintLayout: от верхней и левой границы контейнера до соответствующих границ ImageView по 16 dip.</string>
+
     <string name="xiaomi">Xiaomi</string>
     <string name="android">Android</string>
     <string name="world">World</string>
@@ -48,6 +50,9 @@
     <string name="chapter_five">глава5.Activity</string>
     <string name="chapter_six">глава6.Работа с изображениями</string>
     <string name="chapter_seven">глава7.Адаптеры и списки</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
