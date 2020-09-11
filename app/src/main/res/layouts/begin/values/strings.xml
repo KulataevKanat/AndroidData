@@ -42,6 +42,14 @@
     <string name="eleven">11</string>
     <string name="twelve">12</string>
     <string name="thirteen">13</string>
+    Containers
+    <string name="ll">Linear Layout</string>
+    <string name="rl">Relative Layout</string>
+    <string name="tl">Table Layout</string>
+    <string name="fl">Frame Layout</string>
+    <string name="gl">Grid Layout</string>
+    <string name="cl">Constraint Layout</string>
+    <string name="sv">Scroll View</string>
     Chapters
     <string name="chapter_one">глава1.Работа с Андроид</string>
     <string name="chapter_two">глава2.Основы Интерфейса</string>
@@ -53,6 +61,7 @@
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
     <string name="todo">TODO</string>
+    <string name="containers">containers</string>
 
 
 </resources>
