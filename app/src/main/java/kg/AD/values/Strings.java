@@ -2,7 +2,8 @@ package kg.AD.values;
 
 public class Strings {
     public final static String EXTRA_MESSAGE = "EXTRA_MESSAGE";
-    public final static String HELLO_JAVA_ELEMENT = "Hello Java Interface!";
+    public final static String HELLO_JAVA_INTERFACE = "Hello Java Interface!";
+    public final static String HELLO_JAVA_ELEMENT = "Hello Java Element!";
     public final static String HELLO_XML_ELEMENT = "Hello XML Interface!";
     public final static String JAVA_UNIT_ELEMENT = "px = dp * (dpi / 160)";
     public final static String HELLO = "Hello";
@@ -20,7 +21,6 @@ public class Strings {
     public final static String E = "e";
     public final static String L = "l";
     public final static String O = "o";
-    public final static String SPACE = " ";
     public final static String J = "J";
     public final static String A = "a";
     public final static String V = "v";
