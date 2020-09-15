@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
+        <activity android:name=".mainElements.java.TextViewElement" />
+        <activity android:name=".mainElements.xml.TextViewElement" />
         <activity android:name=".interfaceWorks.java.containers.ScrollViewContainer" />
         <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
