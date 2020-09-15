@@ -10,13 +10,21 @@
     <string name="cancel">Cancel</string>
     <string name="containers">containers</string>
     <string name="ok">OK</string>
+    TextViewElement
+    <string name="hello_arabic_element">مرحبا بالعالم!</string>
+    <string name="hello_tv_element">!Hello Element</string>
+    <string name="hello_tv_android">!Hello Android</string>
+    <string name="trello">https://trello.com/b/pGWgAIjb/untitled</string>
+
     Text
+    <string name="hello_element">Hello Element!</string>
     <string name="app_name">AndroidData</string>
     <string name="hello_android">Hello Android!</string>
     <string name="hello_world">Hello World!</string>
+    <string name="hello_xml_interface">Hello XML Interface</string>
+    <string name="hello_xml_element">Hello XML Element</string>
     <string name="sms">Введите сообщение</string>
     <string name="rl_text">Введите текст</string>
-    <string name="hello_xml_interface">Hello XML Interface</string>
     <string name="text">В этом случае ширина TextView будет такой, которая достаточна для вмещения текста, но не больше значения maxWidth и не меньше значения minWidth. То же самое для установки высоты.</string>
     <string name="cl_text">Во-первых, здесь элемент позиционируется относительно контейнера ConstraintLayout: от верхней и левой границы контейнера до соответствующих границ ImageView по 16 dip.</string>
     <string name="todo">TODO</string>
