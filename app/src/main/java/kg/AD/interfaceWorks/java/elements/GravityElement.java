@@ -22,7 +22,7 @@ public class GravityElement extends AppCompatActivity {
         LinearLayout linearLayout = new LinearLayout(this);
 
         TextView textView = new TextView(this);
-        textView.setText(Strings.HELLO_JAVA_ELEMENT);
+        textView.setText(Strings.HELLO_JAVA_INTERFACE);
         textView.setTextSize(30);
         textView.setBackgroundColor(Color.parseColor(Colors.DARK_VIOLET));
 

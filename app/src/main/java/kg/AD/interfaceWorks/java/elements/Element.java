@@ -13,7 +13,7 @@ public class Element extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView java = new TextView(this);
-        java.setText(Strings.HELLO_JAVA_ELEMENT);
+        java.setText(Strings.HELLO_JAVA_INTERFACE);
         java.setTextSize(30);
         setContentView(java);
 

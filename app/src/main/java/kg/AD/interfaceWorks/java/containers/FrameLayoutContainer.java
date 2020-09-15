@@ -19,7 +19,7 @@ public class FrameLayoutContainer extends AppCompatActivity {
         FrameLayout frameLayout = new FrameLayout(this);
 
         TextView textView = new TextView(this);
-        textView.setText(Strings.HELLO_JAVA_ELEMENT);
+        textView.setText(Strings.HELLO_JAVA_INTERFACE);
         textView.setTextSize(30);
 
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(
