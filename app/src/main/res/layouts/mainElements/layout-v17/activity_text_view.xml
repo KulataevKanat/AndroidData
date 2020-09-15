@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    tools:context=".mainElements.xml.TextViewElement">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lime"
+        android:fontFamily="monospace"
+        android:text="@string/hello_world"
+        android:textAlignment="viewStart"
+        android:textColor="@color/royal_blue"
+        android:textDirection="ltr"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/hae" />
+
+    <TextView
+        android:id="@+id/hae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_yellow"
+        android:fontFamily="serif"
+        android:text="@string/hello_arabic_element"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/he"
+        app:layout_constraintLeft_toLeftOf="@id/he"
+        app:layout_constraintRight_toRightOf="@id/he" />
+
+    <TextView
+        android:id="@+id/he"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dim_gray"
+        android:fontFamily="serif-monospace"
+        android:text="@string/hello_tv_element"
+        android:textAlignment="viewStart"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/ha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_sky_blue"
+        android:fontFamily="sans-serif"
+        android:text="@string/hello_tv_android"
+        android:textAlignment="textStart"
+        android:textColor="@color/mint_cream"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="@id/he"
+        app:layout_constraintRight_toRightOf="@id/he"
+        app:layout_constraintTop_toBottomOf="@+id/he" />
+
+    <TextView
+        android:id="@+id/hxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/medium_turquoise"
+        android:fontFamily="casual"
+        android:text="@string/hello_xml_interface"
+        android:textAlignment="textStart"
+        android:textColor="@color/navajo_white"
+        android:textDirection="ltr"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="@id/ha"
+        app:layout_constraintRight_toRightOf="@id/ha"
+        app:layout_constraintTop_toBottomOf="@+id/ha" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:background="@color/dark_red"
+        android:fontFamily="serif"
+        android:text="@string/trello"
+        android:textColor="@color/gainsboro"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hxi" />
+
+
+    <Button
+        android:id="@+id/tv_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/medium_sea_green"
+        android:fontFamily="cursive"
+        android:text="@string/java_element"
+        android:textColor="@color/dark_blue"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/next_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_violet"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/right_layout"
+        android:textColor="@color/lime_green"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
