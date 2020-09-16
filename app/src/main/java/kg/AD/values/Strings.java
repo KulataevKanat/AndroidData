@@ -13,6 +13,11 @@ public class Strings {
     public final static String RL_TEXT = "Введите текст";
     public final static String PLUS = "+";
     public final static String MINUS = "-";
+    public final static String EQUALLY = "=";
+    public final static String DEGREE = "/";
+    public final static String MULTIPLICATIONS = "*";
+    public final static String OPERATION = "OPERATION";
+    public final static String OPERAND = "OPERAND";
     public final static String NAME = "Введите имя";
     public final static String CLICK = "Click";
 
