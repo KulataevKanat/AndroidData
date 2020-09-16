@@ -29,7 +29,7 @@ public class EditTextElement extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_EDIT_VIEW);
+                        Intent intent = new Intent(getApplicationContext(), Classes.BUTTON);
                         startActivity(intent);
                     }
                 }
