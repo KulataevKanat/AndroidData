@@ -14,6 +14,7 @@ import kg.AD.mainElements.xml.ButtonElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.TextViewElement;
+import kg.AD.mainElements.xml.ToastWindow;
 
 public class Classes {
     /**
@@ -75,6 +76,7 @@ public class Classes {
     public final static Class<?> XML_EDIT_VIEW = EditTextElement.class;
     public final static Class<?> LAYOUT_APP = LayoutApp.class;
     public final static Class<?> BUTTON = ButtonElement.class;
+    public final static Class<?> TOAST = ToastWindow.class;
 
     /**
      * mainElements packages:
