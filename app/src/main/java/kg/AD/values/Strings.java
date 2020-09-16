@@ -21,6 +21,12 @@ public class Strings {
     public final static String NAME = "Введите имя";
     public final static String CLICK = "Click";
 
+    //Toast
+    public final static String HELLO_LEFT_TOAST = "HELLO_LEFT_TOAST";
+    public final static String HELLO_RIGHT_TOAST = "HELLO_RIGHT_TOAST";
+    public final static String HELLO_TOP_TOAST = "HELLO_TOP_TOAST";
+    public final static String HELLO_LONG_TOAST = "HELLO_LONG_TOAST";
+    public final static String HELLO_SHORT_TOAST = "HELLO_SHORT_TOAST";
 
     //ScrollView
     public final static String H = "H";
