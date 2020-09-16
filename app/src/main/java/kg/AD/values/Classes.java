@@ -9,6 +9,7 @@ import kg.AD.interfaceWorks.xml.containers.*;
 import kg.AD.interfaceWorks.xml.containers.FrameLayoutContainer;
 import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
+import kg.AD.mainElements.xml.ButtonElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.TextViewElement;
@@ -62,6 +63,7 @@ public class Classes {
      * JAVA:
      */
     public final static Class<?> JAVA_TEXT_VIEW = kg.AD.mainElements.java.TextViewElement.class;
+    public final static Class<?> JAVA_BUTTON = kg.AD.mainElements.java.ButtonElement.class;
 
     /**
      * mainElements packages:
@@ -70,6 +72,7 @@ public class Classes {
     public final static Class<?> XML_TEXT_VIEW = TextViewElement.class;
     public final static Class<?> XML_EDIT_VIEW = EditTextElement.class;
     public final static Class<?> LAYOUT_APP = LayoutApp.class;
+    public final static Class<?> BUTTON = ButtonElement.class;
 
     /**
      * chapters packages:
