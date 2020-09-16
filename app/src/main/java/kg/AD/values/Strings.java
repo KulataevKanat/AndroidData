@@ -13,6 +13,8 @@ public class Strings {
     public final static String RL_TEXT = "Введите текст";
     public final static String PLUS = "+";
     public final static String MINUS = "-";
+    public final static String NAME = "Введите имя";
+    public final static String CLICK = "Click";
 
 
     //ScrollView
