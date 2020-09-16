@@ -15,6 +15,7 @@ public class Strings {
     public final static String MINUS = "-";
     public final static String EQUALLY = "=";
     public final static String DEGREE = "/";
+    public final static String DEGREE_ERROR = "На ноль делить нельзя";
     public final static String MULTIPLICATIONS = "*";
     public final static String OPERATION = "OPERATION";
     public final static String OPERAND = "OPERAND";
