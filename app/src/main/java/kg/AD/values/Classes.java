@@ -9,6 +9,8 @@ import kg.AD.interfaceWorks.xml.containers.*;
 import kg.AD.interfaceWorks.xml.containers.FrameLayoutContainer;
 import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
+import kg.AD.mainElements.xml.EditTextElement;
+import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.TextViewElement;
 
 public class Classes {
@@ -66,6 +68,8 @@ public class Classes {
      * XML:
      */
     public final static Class<?> XML_TEXT_VIEW = TextViewElement.class;
+    public final static Class<?> XML_EDIT_VIEW = EditTextElement.class;
+    public final static Class<?> LAYOUT_APP = LayoutApp.class;
 
     /**
      * chapters packages:
