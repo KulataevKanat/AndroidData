@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="layout_app">LayoutApp</string>
+    <string name="calc">Calculator</string>
+    <string name="degree">/</string>
+    <string name="multiplication">*</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="comma">,</string>
+    <string name="plus">+</string>
+    <string name="equally">=</string>
+
 </resources>
