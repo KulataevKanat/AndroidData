@@ -15,6 +15,19 @@
     <string name="hello_tv_element">!Hello Element</string>
     <string name="hello_tv_android">!Hello Android</string>
     <string name="trello">https://trello.com/b/pGWgAIjb/untitled</string>
+    EditText
+    <string name="just_text">text</string>
+    <string name="multi_text">textMultiLine</string>
+    <string name="email_text">textEmailAddress</string>
+    <string name="uri_text">textUri</string>
+    <string name="password_text">textPassword</string>
+    <string name="cap_text">textCapWords</string>
+    <string name="number_text">number</string>
+    <string name="phone_text">phone</string>
+    <string name="date_text">date</string>
+    <string name="time_text">time</string>
+    <string name="datetime_text">datetime</string>
+    <string name="name">Введите имя</string>
 
     Text
     <string name="hello_element">Hello Element!</string>
