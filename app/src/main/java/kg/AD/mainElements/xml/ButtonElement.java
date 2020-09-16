@@ -28,8 +28,9 @@ public class ButtonElement extends AppCompatActivity {
     }
 
     private void chapterButton() {
-        Button next_layout = (Button) findViewById(R.id.next_calc);
+        Button next_layout = (Button) findViewById(R.id.next_toast);
         Button next_java_element = (Button) findViewById(R.id.next_button_java_element);
+        Button next_calc = (Button) findViewById(R.id.next_calc);
 
         next_layout.setOnClickListener(
                 new View.OnClickListener() {
@@ -49,5 +50,12 @@ public class ButtonElement extends AppCompatActivity {
                     }
                 }
         );
+        next_calc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Classes.CALCULATOR);
+                startActivity(intent);
+            }
+        });
     }
 }
