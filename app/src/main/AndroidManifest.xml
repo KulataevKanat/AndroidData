@@ -11,13 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
-        <activity android:name=".mainElements.Calculator" />
+        <activity android:name=".mainElements.xml.ToastWindow" />
         <activity android:name=".mainElements.java.ButtonElement" />
         <activity android:name=".mainElements.java.TextViewElement" />
         <activity android:name=".mainElements.xml.ButtonElement" />
         <activity android:name=".mainElements.xml.LayoutApp" />
         <activity android:name=".mainElements.xml.EditTextElement" />
         <activity android:name=".mainElements.xml.TextViewElement" />
+        <activity android:name=".mainElements.Calculator" />
         <activity android:name=".interfaceWorks.java.containers.ScrollViewContainer" />
         <activity android:name=".interfaceWorks.java.containers.FrameLayoutContainer" />
         <activity android:name=".interfaceWorks.java.containers.LinearLayoutContainer" />
