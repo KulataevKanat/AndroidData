@@ -10,4 +10,11 @@
     <string name="plus">+</string>
     <string name="equally">=</string>
 
+    <string name="toast_long">Long</string>
+    <string name="toast_short">Short</string>
+    <string name="toast_top">Top</string>
+    <string name="toast_bottom">Bottom</string>
+    <string name="toast_right">Right</string>
+    <string name="toast_left">Left</string>
+
 </resources>
