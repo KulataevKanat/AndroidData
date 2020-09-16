@@ -27,7 +27,7 @@ public class TextViewElement extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.XML_TEXT_VIEW);
+                        Intent intent = new Intent(getApplicationContext(), Classes.XML_EDIT_VIEW);
                         startActivity(intent);
                     }
                 }
