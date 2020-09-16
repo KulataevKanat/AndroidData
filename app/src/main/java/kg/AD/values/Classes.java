@@ -9,6 +9,7 @@ import kg.AD.interfaceWorks.xml.containers.*;
 import kg.AD.interfaceWorks.xml.containers.FrameLayoutContainer;
 import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
+import kg.AD.mainElements.Calculator;
 import kg.AD.mainElements.xml.ButtonElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
@@ -58,6 +59,7 @@ public class Classes {
     public final static Class<?> XML_GRID_LAYOUT = GridLayoutContainer.class;
     public final static Class<?> XML_CONSTRAINT_LAYOUT = ConstraintLayoutContainer.class;
 
+
     /**
      * mainElements packages:
      * JAVA:
@@ -73,6 +75,11 @@ public class Classes {
     public final static Class<?> XML_EDIT_VIEW = EditTextElement.class;
     public final static Class<?> LAYOUT_APP = LayoutApp.class;
     public final static Class<?> BUTTON = ButtonElement.class;
+
+    /**
+     * mainElements packages:
+     */
+    public final static Class<?> CALCULATOR = Calculator.class;
 
     /**
      * chapters packages:
