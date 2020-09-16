@@ -36,7 +36,7 @@ public class ButtonElement extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.BUTTON);
+                        Intent intent = new Intent(getApplicationContext(), Classes.TOAST);
                         startActivity(intent);
                     }
                 }
