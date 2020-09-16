@@ -15,7 +15,6 @@ public class Strings {
     public final static String MINUS = "-";
 
 
-
     //ScrollView
     public final static String H = "H";
     public final static String E = "e";
