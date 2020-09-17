@@ -28,6 +28,11 @@ public class Strings {
     public final static String HELLO_LONG_TOAST = "HELLO_LONG_TOAST";
     public final static String HELLO_SHORT_TOAST = "HELLO_SHORT_TOAST";
 
+    //Snackbar
+    public final static String HELLO_LONG_SNACKBAR = "HELLO_LONG_SNACKBAR";
+    public final static String HELLO_SHORT_SNACKBAR = "HELLO_SHORT_SNACKBAR";
+    public final static String HELLO_INDEFINITE_SNACKBAR = "HELLO_INDEFINITE_SNACKBAR";
+
     //ScrollView
     public final static String H = "H";
     public final static String E = "e";
