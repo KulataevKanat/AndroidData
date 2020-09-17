@@ -70,7 +70,7 @@ public class ToastWindow extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getApplicationContext(), Classes.TOAST);
+                        Intent intent = new Intent(getApplicationContext(), Classes.SNACKBAR);
                         startActivity(intent);
                     }
                 }
