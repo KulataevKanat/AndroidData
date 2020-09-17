@@ -17,4 +17,8 @@
     <string name="toast_right">Right</string>
     <string name="toast_left">Left</string>
 
+    <string name="snackbar_long">Long</string>
+    <string name="snackbar_short">short</string>
+    <string name="snackbar_indefinite">indefinite</string>
+
 </resources>
