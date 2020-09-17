@@ -13,6 +13,7 @@ import kg.AD.mainElements.Calculator;
 import kg.AD.mainElements.xml.ButtonElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
+import kg.AD.mainElements.xml.SnackbarWindow;
 import kg.AD.mainElements.xml.TextViewElement;
 import kg.AD.mainElements.xml.ToastWindow;
 
@@ -77,6 +78,7 @@ public class Classes {
     public final static Class<?> LAYOUT_APP = LayoutApp.class;
     public final static Class<?> BUTTON = ButtonElement.class;
     public final static Class<?> TOAST = ToastWindow.class;
+    public final static Class<?> SNACKBAR = SnackbarWindow.class;
 
     /**
      * mainElements packages:
