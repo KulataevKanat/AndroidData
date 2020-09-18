@@ -34,7 +34,7 @@ public class SnackbarWindow extends AppCompatActivity {
         change_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Classes.SNACKBAR);
+                Intent intent = new Intent(getApplicationContext(), Classes.CHECKBOX);
                 startActivity(intent);
             }
         });
