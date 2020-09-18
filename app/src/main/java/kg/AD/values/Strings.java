@@ -28,6 +28,15 @@ public class Strings {
     public final static String HELLO_LONG_TOAST = "HELLO_LONG_TOAST";
     public final static String HELLO_SHORT_TOAST = "HELLO_SHORT_TOAST";
 
+    public final static String ON = "On";
+    public final static String OFF = "Off";
+    public final static String RELATIVE_LAYOUT = "RELATIVE_LAYOUT";
+    public final static String CONSTRAINT_LAYOUT = "CONSTRAINT_LAYOUT";
+
+    public final static String JAVA_ELEMENT = "JAVA_ELEMENT";
+    public final static String XML_ELEMENT = "XML_ELEMENT";
+
+
     //Snackbar
     public final static String HELLO_LONG_SNACKBAR = "HELLO_LONG_SNACKBAR";
     public final static String HELLO_SHORT_SNACKBAR = "HELLO_SHORT_SNACKBAR";

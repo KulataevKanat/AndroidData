@@ -26,5 +26,9 @@
     <string name="checkbox_py">Python</string>
     <string name="checkbox_kotlin">Kotlin</string>
     <string name="checkbox_go">Go</string>
+    <string name="on">Включено</string>
+    <string name="off">Выключено</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
 
 </resources>
