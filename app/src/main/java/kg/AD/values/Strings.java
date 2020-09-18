@@ -33,6 +33,19 @@ public class Strings {
     public final static String HELLO_SHORT_SNACKBAR = "HELLO_SHORT_SNACKBAR";
     public final static String HELLO_INDEFINITE_SNACKBAR = "HELLO_INDEFINITE_SNACKBAR";
 
+    //Checkbox
+    public final static String PYTHON = "Python";
+    public final static String KOTLIN = "Kotlin";
+    public final static String JS = "JavaScript";
+    public final static String GO = "Go";
+
+    public final static String PYTHON_UNCHECKED = "Python unchecked";
+    public final static String KOTLIN_UNCHECKED = "Kotlin unchecked";
+    public final static String JAVA_UNCHECKED = "Java unchecked";
+    public final static String JS_UNCHECKED = "JavaScript unchecked";
+    public final static String GO_UNCHECKED = "Go unchecked";
+
+
     //ScrollView
     public final static String H = "H";
     public final static String E = "e";
