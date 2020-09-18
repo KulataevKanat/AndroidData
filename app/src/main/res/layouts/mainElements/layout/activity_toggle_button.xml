@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainElements.xml.ToggleButtonElement">
+
+    <ToggleButton
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="onToggleClicked"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        android:textSize="20sp" />
+
+
+    <ToggleButton
+        android:id="@+id/tb_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tb"
+        android:layout_alignLeft="@+id/tb"
+        android:layout_alignTop="@+id/tb"
+        android:layout_alignEnd="@+id/tb"
+        android:layout_alignRight="@+id/tb"
+        android:layout_marginTop="60dp"
+        android:textOff="@string/constraint_layout"
+        android:textOn="@string/relative_layout"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/next_tb_java_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/java_element"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/next_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/right_layout"
+        android:textSize="25sp"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>
