@@ -11,8 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
+        <activity android:name=".mainElements.java.ToggleButtonElement"/>
         <activity android:name=".mainElements.java.ButtonElement" />
         <activity android:name=".mainElements.java.TextViewElement" />
+        <activity android:name=".mainElements.xml.ToggleButtonElement" />
         <activity android:name=".mainElements.xml.CheckboxElement" />
         <activity android:name=".mainElements.xml.SnackbarWindow" />
         <activity android:name=".mainElements.xml.ToastWindow" />
