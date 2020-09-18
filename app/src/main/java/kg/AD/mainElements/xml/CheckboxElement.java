@@ -20,7 +20,6 @@ public class CheckboxElement extends AppCompatActivity {
     private TextView selection;
     private String selectedItems = "";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +94,7 @@ public class CheckboxElement extends AppCompatActivity {
         next_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Classes.CHECKBOX);
+                Intent intent = new Intent(getApplicationContext(), Classes.TOGGLE_BUTTON);
                 startActivity(intent);
             }
         });
