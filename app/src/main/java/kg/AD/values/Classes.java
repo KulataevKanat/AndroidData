@@ -11,6 +11,7 @@ import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
 import kg.AD.mainElements.Calculator;
 import kg.AD.mainElements.xml.ButtonElement;
+import kg.AD.mainElements.xml.CheckboxElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.SnackbarWindow;
@@ -79,6 +80,7 @@ public class Classes {
     public final static Class<?> BUTTON = ButtonElement.class;
     public final static Class<?> TOAST = ToastWindow.class;
     public final static Class<?> SNACKBAR = SnackbarWindow.class;
+    public final static Class<?> CHECKBOX = CheckboxElement.class;
 
     /**
      * mainElements packages:
