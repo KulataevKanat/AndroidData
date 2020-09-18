@@ -1,5 +1,7 @@
 package kg.AD.values;
 
+import android.widget.ToggleButton;
+
 import kg.AD.MainActivity;
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
@@ -17,6 +19,7 @@ import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.SnackbarWindow;
 import kg.AD.mainElements.xml.TextViewElement;
 import kg.AD.mainElements.xml.ToastWindow;
+import kg.AD.mainElements.xml.ToggleButtonElement;
 
 public class Classes {
     /**
@@ -69,6 +72,7 @@ public class Classes {
      */
     public final static Class<?> JAVA_TEXT_VIEW = kg.AD.mainElements.java.TextViewElement.class;
     public final static Class<?> JAVA_BUTTON = kg.AD.mainElements.java.ButtonElement.class;
+    public final static Class<?> JAVA_TOGGLE_BUTTON = kg.AD.mainElements.java.ToggleButtonElement.class;
 
     /**
      * mainElements packages:
@@ -81,6 +85,7 @@ public class Classes {
     public final static Class<?> TOAST = ToastWindow.class;
     public final static Class<?> SNACKBAR = SnackbarWindow.class;
     public final static Class<?> CHECKBOX = CheckboxElement.class;
+    public final static Class<?> TOGGLE_BUTTON = ToggleButtonElement.class;
 
     /**
      * mainElements packages:
