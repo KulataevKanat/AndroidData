@@ -1,8 +1,5 @@
 package kg.AD.values;
 
-import android.widget.ToggleButton;
-
-import kg.AD.MainActivity;
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
 import kg.AD.interfaceWorks.java.containers.*;
@@ -14,10 +11,14 @@ import kg.AD.interfaceWorks.xml.elements.*;
 import kg.AD.mainElements.Calculator;
 import kg.AD.mainElements.xml.ButtonElement;
 import kg.AD.mainElements.xml.CheckboxElement;
+import kg.AD.mainElements.xml.DatePickerElement;
 import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
+import kg.AD.mainElements.xml.Pickers;
+import kg.AD.mainElements.xml.RadioButtonElement;
 import kg.AD.mainElements.xml.SnackbarWindow;
 import kg.AD.mainElements.xml.TextViewElement;
+import kg.AD.mainElements.xml.TimePickerElement;
 import kg.AD.mainElements.xml.ToastWindow;
 import kg.AD.mainElements.xml.ToggleButtonElement;
 
@@ -86,6 +87,10 @@ public class Classes {
     public final static Class<?> SNACKBAR = SnackbarWindow.class;
     public final static Class<?> CHECKBOX = CheckboxElement.class;
     public final static Class<?> TOGGLE_BUTTON = ToggleButtonElement.class;
+    public final static Class<?> RADIO_BUTTON = RadioButtonElement.class;
+    public final static Class<?> PICKERS = Pickers.class;
+    public final static Class<?> DATE_PICKER = DatePickerElement.class;
+    public final static Class<?> TIME_PICKER = TimePickerElement.class;
 
     /**
      * mainElements packages:
@@ -95,7 +100,6 @@ public class Classes {
     /**
      * chapters packages:
      */
-    public final static Class<?> MAIN_ACTIVITY = MainActivity.class;
     public final static Class<?> BEGIN_CHAPTER = BeginChapter.class;
     public final static Class<?> INTERFACE_CHAPTER = InterfaceChapter.class;
     public final static Class<?> MAIN_ELEMENTS_CHAPTER = MainElementsChapter.class;
