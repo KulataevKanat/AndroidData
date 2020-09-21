@@ -39,7 +39,7 @@ public class ToggleButtonElement extends AppCompatActivity {
         next_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Classes.TOGGLE_BUTTON);
+                Intent intent = new Intent(getApplicationContext(), Classes.RADIO_BUTTON);
                 startActivity(intent);
             }
         });
