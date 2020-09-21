@@ -31,4 +31,7 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="constraint_layout">Constraint Layout</string>
 
+    <string name="date_picker">Date Picker</string>
+    <string name="time_picker">Time Picker</string>
+
 </resources>
