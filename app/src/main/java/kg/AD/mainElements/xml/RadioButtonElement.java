@@ -21,6 +21,7 @@ public class RadioButtonElement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_button);
+        buttons();
     }
 
     public void onRadioButtonClicked(View view) {
@@ -47,7 +48,7 @@ public class RadioButtonElement extends AppCompatActivity {
         layout_change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Classes.RADIO_BUTTON);
+                Intent intent = new Intent(getApplicationContext(), Classes.PICKERS);
                 startActivity(intent);
             }
         });
