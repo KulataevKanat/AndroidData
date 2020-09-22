@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    dp
+    <dimen name="sixteenDP">16dp</dimen>
+
+    sp
+    <dimen name="twentiesSP">20sp</dimen>
+</resources>
