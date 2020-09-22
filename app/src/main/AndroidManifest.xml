@@ -14,6 +14,7 @@
         <activity android:name=".mainElements.java.ToggleButtonElement" />
         <activity android:name=".mainElements.java.ButtonElement" />
         <activity android:name=".mainElements.java.TextViewElement" />
+        <activity android:name=".mainElements.xml.SeekBarElement" />
         <activity android:name=".mainElements.xml.Pickers" />
         <activity android:name=".mainElements.xml.DatePickerElement" />
         <activity android:name=".mainElements.xml.TimePickerElement" />
