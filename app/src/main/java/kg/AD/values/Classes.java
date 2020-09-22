@@ -16,6 +16,7 @@ import kg.AD.mainElements.xml.EditTextElement;
 import kg.AD.mainElements.xml.LayoutApp;
 import kg.AD.mainElements.xml.Pickers;
 import kg.AD.mainElements.xml.RadioButtonElement;
+import kg.AD.mainElements.xml.SeekBarElement;
 import kg.AD.mainElements.xml.SnackbarWindow;
 import kg.AD.mainElements.xml.TextViewElement;
 import kg.AD.mainElements.xml.TimePickerElement;
@@ -91,6 +92,7 @@ public class Classes {
     public final static Class<?> PICKERS = Pickers.class;
     public final static Class<?> DATE_PICKER = DatePickerElement.class;
     public final static Class<?> TIME_PICKER = TimePickerElement.class;
+    public final static Class<?> SEEKBAR = SeekBarElement.class;
 
     /**
      * mainElements packages:
