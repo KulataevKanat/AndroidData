@@ -3,7 +3,8 @@
     <string name="send">Отправить</string>
     <string name="right_layout">вперед</string>
     <string name="java_element">java_element</string>
-    <string name="xml_element">xml_element</string>
+    <string name="xml_element">xml_elements</string>
+    <string name="xml_elements">xml_elements</string>
     <string name="horizontal">horizontal orientation</string>
     <string name="scroll_view">Scroll View</string>
     <string name="click">Click</string>
