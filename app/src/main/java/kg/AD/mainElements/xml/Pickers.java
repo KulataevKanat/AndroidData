@@ -33,7 +33,7 @@ public class Pickers extends AppCompatActivity {
         change_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Classes.PICKERS);
+                Intent intent = new Intent(getApplicationContext(), Classes.SEEKBAR);
                 startActivity(intent);
             }
         });
