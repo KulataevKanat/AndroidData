@@ -9,19 +9,8 @@ import kg.AD.interfaceWorks.xml.containers.FrameLayoutContainer;
 import kg.AD.interfaceWorks.xml.containers.RelativeLayoutContainer;
 import kg.AD.interfaceWorks.xml.elements.*;
 import kg.AD.mainElements.Calculator;
-import kg.AD.mainElements.xml.ButtonElement;
-import kg.AD.mainElements.xml.CheckboxElement;
-import kg.AD.mainElements.xml.DatePickerElement;
-import kg.AD.mainElements.xml.EditTextElement;
-import kg.AD.mainElements.xml.LayoutApp;
-import kg.AD.mainElements.xml.Pickers;
-import kg.AD.mainElements.xml.RadioButtonElement;
-import kg.AD.mainElements.xml.SeekBarElement;
-import kg.AD.mainElements.xml.SnackbarWindow;
-import kg.AD.mainElements.xml.TextViewElement;
-import kg.AD.mainElements.xml.TimePickerElement;
-import kg.AD.mainElements.xml.ToastWindow;
-import kg.AD.mainElements.xml.ToggleButtonElement;
+import kg.AD.mainElements.xml.*;
+import kg.AD.resources.xml.ResValues;
 
 public class Classes {
     /**
@@ -98,6 +87,18 @@ public class Classes {
      * mainElements packages:
      */
     public final static Class<?> CALCULATOR = Calculator.class;
+
+    /**
+     * resources packages:
+     * JAVA:
+     */
+    public final static Class<?> JAVA_RES_VALUES = kg.AD.resources.java.ResValues.class;
+
+    /**
+     * resources packages:
+     * XML:
+     */
+    public final static Class<?> XML_RES_VALUES = ResValues.class;
 
     /**
      * chapters packages:
