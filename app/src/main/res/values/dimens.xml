@@ -4,5 +4,7 @@
     <dimen name="sixteenDP">16dp</dimen>
 
     sp
-    <dimen name="twentiesSP">20sp</dimen>
+    <dimen name="twentiethSP">20sp</dimen>
+    <dimen name="thirtiethSP">30sp</dimen>
+    <dimen name="fortiethSP">40sp</dimen>
 </resources>
