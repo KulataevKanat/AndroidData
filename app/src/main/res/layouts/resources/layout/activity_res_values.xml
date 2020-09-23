@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@color/dark_olive_green"
         android:text="@string/hello_android"
-        android:textSize="@dimen/twentiesSP"
+        android:textSize="@dimen/thirtiethSP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
