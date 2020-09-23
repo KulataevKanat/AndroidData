@@ -2,6 +2,7 @@ package kg.AD.resources.java;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -22,10 +23,10 @@ public class ResValues extends AppCompatActivity {
         // получение ресурсов из файла strings.xml
         String hello_android = getResources().getString(R.string.hello_android);
         // получение ресурсов из файла colors.xml
-        int hello_android_color = getResources().getColor(R.color.dark_green);
-        int chapter_color = getResources().getColor(R.color.dark_magenta);
+        int hello_android_color = (int) getResources().getColor(R.color.dark_green);
+        int chapter_color = (int) getResources().getColor(R.color.dark_magenta);
         // получение ресурсов из файла dimens.xml
-        float dimenSP = getResources().getDimension(R.dimen.twentiesSP);
+        int dimenSP = (int) getResources().getDimension(R.dimen.twentiethSP);
         // получение ресурсов из файла plurals.xml
         String chapters = getResources().getQuantityString(R.plurals.chapters, 25, 25);
 
@@ -49,9 +50,14 @@ public class ResValues extends AppCompatActivity {
         tv.leftToLeft = constraintLayout.getLeft();
         constraintLayout.addView(textView, tv);
 
+        int textPluralSize = 18;
+        int size = (int) TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_SP,
+                textPluralSize,
+                getResources().getDisplayMetrics());
         TextView textPlural = new TextView(this);
         textPlural.setText(chapters);
-        textPlural.setTextSize(dimenSP);
+        textPlural.setTextSize(size);
         textPlural.setBackgroundColor(chapter_color);
         textPlural.setGravity(Gravity.CENTER);
 
