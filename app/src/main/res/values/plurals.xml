@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="zero">%d глав</item>
+        <item quantity="one">%d глава</item>
+        <item quantity="two">%d главы</item>
+        <item quantity="few">%d глав</item>
+        <item quantity="many">%d глав</item>
+        <item quantity="other">%d chapters</item>
+
+    </plurals>
+</resources>
