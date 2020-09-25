@@ -6,27 +6,15 @@
     tools:context=".chapters.ActivityChapter">
 
     <Button
-        android:id="@+id/next_5_xml_element"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:gravity="center"
-        android:text="@string/xml_element"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/next_5_java_element"
+        android:id="@+id/next_activity_methods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:text="@string/java_element"
-        android:textSize="20sp" />
-
+        android:text="@string/right_layout"
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="wrap_content"
