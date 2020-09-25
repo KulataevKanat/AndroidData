@@ -1,5 +1,6 @@
 package kg.AD.values;
 
+import kg.AD.activity.Methods;
 import kg.AD.begin.*;
 import kg.AD.chapters.*;
 import kg.AD.interfaceWorks.java.containers.*;
@@ -99,6 +100,11 @@ public class Classes {
      * XML:
      */
     public final static Class<?> XML_RES_VALUES = ResValues.class;
+
+    /**
+     * activity packages:
+     */
+    public final static Class<?> METHODS = Methods.class;
 
     /**
      * chapters packages:
