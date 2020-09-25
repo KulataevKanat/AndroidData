@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,ExtraText">
+        <activity android:name=".activity.Methods" />
         <activity android:name=".resources.java.ResValues" />
         <activity android:name=".resources.xml.ResValues" />
         <activity android:name=".mainElements.java.ToggleButtonElement" />
