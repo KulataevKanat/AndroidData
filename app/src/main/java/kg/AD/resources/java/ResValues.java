@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.ContextCompat;
 
 import kg.AD.R;
 
@@ -24,7 +25,7 @@ public class ResValues extends AppCompatActivity {
         String hello_android = getResources().getString(R.string.hello_android);
         // получение ресурсов из файла colors.xml
         int hello_android_color = (int) getResources().getColor(R.color.dark_green);
-        int chapter_color = (int) getResources().getColor(R.color.dark_magenta);
+        int chapter_color = ContextCompat.getColor(getApplicationContext(), R.color.dark_magenta);
         // получение ресурсов из файла dimens.xml
         int dimenSP = (int) getResources().getDimension(R.dimen.twentiethSP);
         // получение ресурсов из файла plurals.xml
