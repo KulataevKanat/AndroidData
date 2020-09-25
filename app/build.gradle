@@ -17,6 +17,7 @@ android {
         main {
             res.srcDirs =
                     [
+                            'src/main/res/layouts/activity',
                             'src/main/res/layouts/resources',
                             'src/main/res/layouts/mainElements',
                             'src/main/res/layouts/interface', 'src/main/res/layouts/interface/containers',
